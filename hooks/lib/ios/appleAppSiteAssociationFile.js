@@ -144,7 +144,7 @@ function createDirectoriesIfNeeded(dirPath) {
  * @return {String} path to web hook directory
  */
 function getWebHookDirectory() {
-  return path.join(getProjectRoot(), 'ul_web_hooks', 'ios');
+  return path.join(getProjectRoot(), 'www', 'ul_web_hooks', 'ios');
 }
 
 /**
